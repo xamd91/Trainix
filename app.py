@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 db = SQLAlchemy()
-migrate = Migrate()
+migrate = Migrate() 
 
 def create_app():
     app = Flask(__name__)
